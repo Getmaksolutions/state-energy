@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+input,
+button {
+  border: 0px;
+}
+input:focus,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  display: inline-block;
+  background-color: transparent;
+}
+
+body {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.block {
+  padding: 3rem 3rem 0;
+}
+@media (max-width: 992px) {
+  .block .img-hold img {
+    width: 100%;
+  }
+}
+.block .f-block {
+  padding: 2rem 0 0;
+}
+.block .f-block .logo-bar {
+  margin: 0 0 6rem;
+}
+.block .f-block .form-block {
+  margin: 0 0 5rem;
+}
+.block .f-block .form-block h1 {
+  color: #1E1E1E;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 500;
+  margin: 0 0 15px;
+}
+.block .f-block .form-block p {
+  color: #1E1E1E;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 0 0 35px;
+}
+.block .f-block .form-block .box {
+  border-radius: 8px;
+  border: 1px solid #DEDEDE;
+  background: #FFF;
+  padding: 0 15px 0 15px;
+  position: relative;
+}
+.block .f-block .form-block .box label {
+  color: #1E1E1E;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  position: absolute;
+  top: -9px;
+  background: #fff;
+  margin: 0;
+  padding: 0 10px;
+}
+.block .f-block .form-block .box input {
+  overflow: hidden;
+  color: #1E1E1E;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  font-weight: 350;
+  line-height: 20px;
+  border: 0;
+  padding: 25px 10px 20px;
+}
+.block .f-block .form-block .box input::-moz-placeholder {
+  color: #1E1E1E;
+}
+.block .f-block .form-block .box input::placeholder {
+  color: #1E1E1E;
+}
+.block .f-block .form-block .box input:focus {
+  box-shadow: none;
+}
+.block .f-block .form-block .box .field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 2;
+}
+.block .f-block .form-block .box .field-icon:after {
+  position: absolute;
+  top: -7px;
+  left: -14px;
+  right: auto;
+  bottom: 0;
+  content: "";
+  z-index: 1;
+  width: 1px;
+  height: 30px;
+  background: #DEDEDE;
+}
+.block .f-block .form-block .form-check {
+  margin: 14px 0 0;
+}
+.block .f-block .form-block .form-check input {
+  width: 25px;
+  height: 25px;
+}
+.block .f-block .form-block .form-check input:focus {
+  box-shadow: none;
+}
+.block .f-block .form-block .form-check input:checked {
+  background-color: #03276B;
+  border-color: #03276B;
+}
+.block .f-block .form-block .form-check label {
+  color: #1E1E1E;
+  font-size: 16px;
+  font-weight: 350;
+  line-height: 22px;
+  margin: 6px 0 0 12px;
+}
+.block .f-block .form-block .login-btn {
+  display: flex;
+  padding: 20px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #03276B;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0 0 0 auto;
+  width: 160px;
+}
+.block .f-block .form-block .login-btn:focus {
+  box-shadow: none;
+}
+.block .b-links ul {
+  display: flex;
+  align-items: center;
+}
+.block .b-links ul li {
+  margin: 0 20px 0 0;
+}
+.block .b-links ul li a {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+.block .b-links ul li:last-child {
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */

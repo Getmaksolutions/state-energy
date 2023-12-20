@@ -1,0 +1,142 @@
+.block {
+    padding: 3rem 3rem 0;
+    .img-hold {
+        @include max(992px) {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .f-block {
+        padding: 2rem 0 0;
+        .logo-bar {
+            margin: 0 0 6rem;
+        }
+        .form-block {
+            margin: 0 0 5rem;
+            h1 {
+                color: #1E1E1E;
+                font-size: 30px;
+                line-height: 32px;
+                font-weight: 500;
+                margin: 0 0 15px;
+            }
+            p {
+                color: #1E1E1E;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 16px;
+                margin: 0 0 35px;
+            }
+            .box {
+                border-radius: 8px;
+                border: 1px solid #DEDEDE;
+                background: #FFF;
+                padding: 0 15px 0 15px;
+                position: relative;
+                label {
+                    color: #1E1E1E;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 16px;
+                    position: absolute;
+                    top: -9px;
+                    background: #fff;
+                    margin: 0;
+                    padding: 0 10px;
+                }
+                input {
+                    overflow: hidden;
+                    color: #1E1E1E;
+                    text-overflow: ellipsis;
+                    font-size: 18px;
+                    font-weight: 350;
+                    line-height: 20px;
+                    border: 0;
+                    padding: 25px 10px 20px;
+                    &::placeholder {
+                        color: #1E1E1E;
+                    }
+                    &:focus {
+                        box-shadow: none;
+                    }
+                }
+                .field-icon {
+                    float: right;
+                    margin-left: -25px;
+                    margin-top: -40px;
+                    position: relative;
+                    z-index: 2;
+                    &:after {
+                        position: absolute;
+                        top: -7px;
+                        left: -14px;
+                        right: auto;
+                        bottom: 0;
+                        content: "";
+                        z-index: 1;
+                        width: 1px;
+                        height: 30px;
+                        background: #DEDEDE;
+                    }
+                }
+            }
+            .form-check {
+                margin: 14px 0 0;
+                input {
+                    width: 25px;
+                    height: 25px;
+                    &:focus {
+                        box-shadow: none;
+                    }
+                    &:checked {
+                        background-color: #03276B;
+                        border-color: #03276B;
+                    }
+                }
+                label {
+                    color: #1E1E1E;
+                    font-size: 16px;
+                    font-weight: 350;
+                    line-height: 22px;
+                    margin: 6px 0 0 12px;
+                }
+            }
+            .login-btn {
+                display: flex;
+                padding: 20px 24px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 12px;
+                background: #03276B;
+                color: #FFF;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 20px;
+                margin: 0 0 0 auto;
+                width: 160px;
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+    .b-links {
+        ul {
+            display: flex;
+            align-items: center;
+            li {
+                margin: 0 20px 0 0;
+                a {
+                    color: #000;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 14px;
+                }
+                &:last-child {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

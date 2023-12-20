@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>State Energy</title>
+		<!-- Library -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- font-family -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<!-- Main css -->
+		<link rel="stylesheet" href="assets/scss/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<section class="block">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5">
+							<div class="img-hold">
+								<img src="assets/images/img01.png" alt="">
+							</div>
+						</div>
+						<div class="col-lg-1"></div>
+						<div class="col-lg-6">
+							<div class="f-block">
+								<div class="logo-bar">
+									<img src="assets/images/logo.png" alt="">
+								</div>
+								<div class="form-block">
+									<h1>Login!</h1>
+									<p>
+										Enter authorized email address & password.
+									</p>
+									<form class="row g-5">
+										<div class="col-lg-12">
+											<div class="box">
+												<label class="form-label">Email</label>
+												<input type="text" class="form-control" placeholder="superman@mystateenergy.com">
+											</div>
+										</div>
+										<div class="col-lg-12">
+											<div class="box">
+												<label class="form-label">New Password</label>
+												<input id="password-field" type="password" class="form-control" name="password" placeholder="**************">
+              									<span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="gridCheck">
+												<label class="form-check-label" for="gridCheck">
+													Stay Signed In
+												</label>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<button type="submit" class="btn login-btn">Login</button>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="b-links">
+								<ul>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Terms & Condition</a></li>
+									<li><a href="#">Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>	
+
+	<!-- All js Goes here -->
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="assets/js/app.js"></script>
+	<script>
+		$(".toggle-password").click(function() {
+		$(this).toggleClass("fa-eye fa-eye-slash");
+			var input = $($(this).attr("toggle"));
+			if (input.attr("type") == "password") {
+			input.attr("type", "text");
+			} else {
+			input.attr("type", "password");
+			}
+		});
+	</script>
+</html>
