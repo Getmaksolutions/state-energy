@@ -156,3 +156,59 @@
         }
     }
 }
+
+// categories start
+
+.cata-area {
+    .box {
+        background: linear-gradient(211deg, #DEDEDE -117.26%, rgba(222, 222, 222, 0.00) 69.98%);
+        border-radius: 24px;
+        border: 2px solid #DEDEDE;
+        position: relative;
+        min-height: 325px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+        @include max(992px) {
+            margin: 0 0 15px;
+        }
+        .t-hold {
+            padding: 40px 0 0 40px;
+            margin: 0 0 5rem;
+            h2 {
+                color: #000;
+                font-size: 21px;
+                font-weight: 700;
+                line-height: 23px;
+                text-transform: uppercase;
+                @include max(992px) {
+                    font-size: 16px;
+                    line-height: 18px;
+                }
+            }
+        }
+        .btn-area {
+            position: absolute;
+            top: auto;
+            bottom: 0;
+            left: auto;
+            right: 0;
+            background: #000;
+            content: "";
+            border-radius: 24px 0 24px 0;
+            border: 1px solid #000;
+            a {
+                width: 60px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                i {
+                    color: #fff;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

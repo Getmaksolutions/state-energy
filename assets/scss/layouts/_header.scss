@@ -1,6 +1,9 @@
 #header {
     padding: 50px 0;
     margin: 0 0 5rem;
+    @include max(992px) {
+        margin: 0 0 2rem;
+    }
     .box {
         ul {
             display: flex;
@@ -12,25 +15,51 @@
                 font-size: 20px;
                 font-weight: 400;
                 line-height: 22px;
+                opacity: 0.5;
                 span {
                     font-weight: 500;
+                }
+                &:after {
+                    position: absolute;
+                    top: 7px;
+                    left: auto;
+                    right: -22px;
+                    bottom: 0;
+                    background: #D9D9D9;
+                    width: 8px;
+                    height: 8px;
+                    content: "";
+                    border-radius: 100%;
                 }
                 &:last-child {
                     margin: 0;
                     &::before {
                         display: none;
                     }
+                    &::after {
+                        display: none;
+                    }
                 }
-                &:before {
-                    position: absolute;
-                    top: 6px;
-                    left: auto;
-                    right: -22px;
-                    bottom: 0;
-                    background: #B3B3B3;
-                    width: 1px;
-                    height: 32px;
-                    content: "";
+                &.active {
+                    opacity: 1;
+                    font-weight: 500;
+                }
+                &:first-child {
+                    &:before {
+                        position: absolute;
+                        top: 6px;
+                        left: auto;
+                        right: -22px;
+                        bottom: 0;
+                        background: #B3B3B3;
+                        width: 1px;
+                        height: 32px;
+                        content: "";
+                    }
+                    opacity: 1;
+                    &:after {
+                        display: none;
+                    }
                 }
             }
         }
