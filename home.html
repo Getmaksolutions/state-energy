@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>State Energy</title>
+		<!-- Library -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- font-family -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<!-- Main css -->
+		<link rel="stylesheet" href="assets/scss/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+		<link rel="stylesheet" href="http://seodesigns.com/projects/codepen/071016/rangeslider.css">
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<header id="header">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-6">
+							<div class="box">
+								<ul>
+									<li><a href="#"><img src="assets/images/logo.png" alt=""></a></li>
+									<li>Welcome <span>Ben!</span></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="r-box">
+								<ul>
+									<li>
+										<a href="#"><img src="assets/images/icon01.png" alt=""></a>
+									</li>
+									<li>
+										<div class="dropdown">
+											<button class="btn eo-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+												EO
+											</button>
+											<ul class="dropdown-menu">
+												<div class="d-box">
+													<h2>Eytan Ohayon</h2>
+													<p>Sales Representative</p>
+												</div>
+											  <li><a class="dropdown-item" href="#"><img src="assets/images/icon06.png" alt=""> Profile</a></li>
+											  <li><a class="dropdown-item" href="#"><img src="assets/images/icon07.png" alt=""> My Orders</a></li>
+											  <div class="l-box">
+												<li><a class="dropdown-item" href="#"><img src="assets/images/icon08.png" alt=""> Logout</a></li>
+											  </div>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main id="main" role="main">
+				<section class="head-area">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<h2>Utilization Details</h2>
+								<h1>Estimated Consumption</h1>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="two-block">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="box">
+									<h2><img src="assets/images/icon02.png" alt="">Monthly Utility Bill<span><img src="assets/images/icon03.png" alt=""></span></h2>
+									<div class="rang-bar">
+										<div class="output">
+											<span>$</span> <h3>123.45</h3>
+										</div>
+										<div class="range-container">
+											<form>
+											  <input type="range" min="0" max="10000" step="10" value="1000" id="rang-bar">
+											</form>
+											<ul>
+												<li>$0</li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li>$10K</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="box">
+									<h2><img src="assets/images/icon05.png" alt="">Monthly Insurance Bill<span><img src="assets/images/icon03.png" alt=""></span></h2>
+									<div class="rang-bar">
+										<div class="output">
+											<span>$</span> <h6>0.00</h6>
+										  </div>
+										  <div class="range-container">
+											<form>
+											  <input type="range" min="0" max="10000" step="10" value="1000" id="rang">
+											</form>
+											<ul>
+												<li>$0</li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li><span></span></li>
+												<li>$10K</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="btn-area">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<button class="btn pro-btn">Proceed with Order <img src="assets/images/img03.png" alt=""></button>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+	</body>	
+
+	<!-- All js Goes here -->
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<script src="http://seodesigns.com/projects/codepen/071016/rangeslider.min.js"></script>
+	<script src="assets/js/app.js"></script>
+	<script>
+		//Range slider setup
+		$('#rang-bar').rangeslider({
+		polyfill: false,
+		rangeClass: 'rangeslider',
+		disabledClass: 'rangeslider--disabled',
+		horizontalClass: 'rangeslider--horizontal',
+		verticalClass: 'rangeslider--vertical',
+		fillClass: 'rangeslider__fill',
+		handleClass: 'rangeslider__handle'
+		});
+
+		//Functionality for a value feedback
+		var output = $('h3')[0];
+
+		$(document).on('input', '#rang-bar', function(e) {
+		output.innerHTML = e.currentTarget.value;
+		});
+	</script>
+	<script>
+		//Range slider setup
+		$('#rang').rangeslider({
+		polyfill: false,
+		rangeClass: 'rangeslider',
+		disabledClass: 'rangeslider--disabled',
+		horizontalClass: 'rangeslider--horizontal',
+		verticalClass: 'rangeslider--vertical',
+		fillClass: 'rangeslider__fill',
+		handleClass: 'rangeslider__handle'
+		});
+
+		//Functionality for a value feedback
+		var out = $('h6')[0];
+
+		$(document).on('input', '#rang', function(e) {
+		out.innerHTML = e.currentTarget.value;
+		});
+	</script>
+</html>

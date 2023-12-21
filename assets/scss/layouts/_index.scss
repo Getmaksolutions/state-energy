@@ -1,0 +1,158 @@
+.head-area {
+    text-align: center;
+    h2 {
+        border-radius: 5px;
+        background: rgba(197, 47, 49, 0.10);
+        padding: 12px 12px;
+        color: #C52F31;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        margin: 0 0 25px;
+        display: inline-block;
+    }
+    h1 {
+        color: #1E1E1E;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 32px;
+        margin: 0 0 40px;
+    }
+}
+.two-block {
+    .box {
+        padding: 24px 24px;
+        background: linear-gradient(211deg, #DEDEDE -239.13%, rgba(222, 222, 222, 0.00) 69.97%);
+        border: 1px solid #DEDEDE;
+        border-radius: 15px 15px;
+        margin: 0 0 50px;
+        min-height: 290px;
+        h2 {
+            img {
+                margin: 0 10px 0 0;
+            }
+            span {
+                margin: 0 0 0 10px;
+                img {
+                    margin: 0;
+                }
+            }
+            color: #1E1E1E;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 18px;
+            margin: 0 0 30px;
+            display: flex;
+            align-items: center;
+        }
+        .rang-bar {
+            .output {
+                border: 1px solid #DEDEDE;
+                border-radius: 15px 15px;
+                padding: 20px 20px;
+                display: flex;
+                align-items: center;
+                margin: 0 0 45px;
+                h3 {
+                    color: #03276B;
+                    font-size: 40px;
+                    font-weight: 500;
+                    line-height: 42px;
+                    padding: 0 0 0 20px;
+                }
+                h6 {
+                    color: #03276B;
+                    font-size: 40px;
+                    font-weight: 500;
+                    line-height: 42px;
+                    padding: 0 0 0 20px;
+                    opacity: 0.2;
+                }
+                span {
+                    color: #03276B;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 44px;
+                    opacity: 0.2;
+                    padding: 0 20px 0 0;
+                    border-right: 1px solid #DEDEDE;
+                }
+            }
+            .range-container {
+                .rangeslider--horizontal {
+                    height: 8px;
+                    background: #DFDFDF;
+                    .rangeslider__fill {
+                        background: #C52F31;
+                        opacity: 1;
+                    }
+                    .rangeslider__handle {
+                        background: #C52F31;
+                        top: -12px;
+                        width: 48px;
+                        height: 32px;
+                        border-radius: 25px;
+                        &:after {
+                            background: url(../images/icon04.png) no-repeat;
+                            background-size: 100%;
+                            width: 8px;
+                            height: 10px;
+                            padding: 0;
+                            border-radius: 0;
+                        }
+                    }
+                }
+                ul {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin: 20px 0 0;
+                    li {
+
+                        &:first-child {
+                            color: #1E1E1E;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 800;
+                            line-height: 16px;
+                        }
+                        &:last-child {
+                            color: #1E1E1E;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 800;
+                            line-height: 16px;
+                        }
+                        span {
+                            width: 1px;
+                            height: 8px;
+                            background: #E1E1E1;
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+.btn-area {
+    text-align: center;
+    .pro-btn {
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        padding: 20px 24px;
+        background: #03276B;
+        border-radius: 12px 12px;
+        img {
+            margin: 0 0 0 5px;
+        }
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}
