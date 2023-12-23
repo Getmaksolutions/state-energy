@@ -695,6 +695,27 @@ body {
   background: #1E1E1E;
   opacity: 0.3;
 }
+.r-detail .form-block .form-switch {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.r-detail .form-block .form-switch label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #1E1E1E;
+  margin: 3px 0 0 15px;
+}
+.r-detail .form-block .form-switch input {
+  width: 3.2em;
+  height: 2em;
+}
+.r-detail .form-block .form-switch input:checked {
+  background-color: #03276B;
+}
 .r-detail .bott-area {
   margin: 0 0 30px;
 }
@@ -786,4 +807,7 @@ body {
   font-size: 18px;
   font-weight: 500;
   line-height: 20px;
+}
+.r-detail.solar .check-area {
+  margin: 0 0 6rem;
 }/*# sourceMappingURL=main.css.map */

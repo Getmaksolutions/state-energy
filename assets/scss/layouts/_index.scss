@@ -342,6 +342,27 @@
                 }
             }
         }
+        .form-switch {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            label {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 18px;
+                color: #1E1E1E;
+                margin: 3px 0 0 15px;
+            }
+            input {
+                width: 3.2em;
+                height: 2em;
+                &:checked {
+                    background-color: #03276B;
+                }
+            }
+        }
     }
     .bott-area {
         margin: 0 0 30px;
@@ -435,6 +456,11 @@
                 font-weight: 500;
                 line-height: 20px;
             }
+        }
+    }
+    &.solar {
+        .check-area {
+            margin: 0 0 6rem;
         }
     }
 }
