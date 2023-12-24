@@ -811,6 +811,12 @@ body {
 .r-detail.solar .check-area {
   margin: 0 0 6rem;
 }
+.r-detail.ins .form-switch {
+  margin: 0 0 11.5rem;
+}
+.r-detail.ins .radio-area label {
+  width: auto;
+}
 .r-detail.havc .radio-area label {
   width: auto;
 }/*# sourceMappingURL=main.css.map */

@@ -463,6 +463,16 @@
             margin: 0 0 6rem;
         }
     }
+    &.ins {
+        .form-switch {
+            margin: 0 0 11.5rem;
+        }
+        .radio-area {
+            label {
+                width: auto;
+            }
+        }
+    }
     &.havc {
         .radio-area {
             label {
