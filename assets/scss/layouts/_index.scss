@@ -463,4 +463,11 @@
             margin: 0 0 6rem;
         }
     }
+    &.havc {
+        .radio-area {
+            label {
+                width: auto;
+            }
+        }
+    }
 }

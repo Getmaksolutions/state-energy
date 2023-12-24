@@ -810,4 +810,7 @@ body {
 }
 .r-detail.solar .check-area {
   margin: 0 0 6rem;
+}
+.r-detail.havc .radio-area label {
+  width: auto;
 }/*# sourceMappingURL=main.css.map */
