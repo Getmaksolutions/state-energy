@@ -710,6 +710,14 @@ body {
   background: #1E1E1E;
   opacity: 0.3;
 }
+.r-detail .form-block .box .seven {
+  background: url(../images/icon15.png) no-repeat center left;
+  padding: 25px 10px 20px 50px;
+}
+.r-detail .form-block .box .five {
+  background: url(../images/icon16.png) no-repeat center left;
+  padding: 25px 10px 20px 50px;
+}
 .r-detail .form-block .form-switch {
   margin: 0;
   display: flex;
