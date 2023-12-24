@@ -668,6 +668,21 @@ body {
 .r-detail .form-block .box input:focus {
   box-shadow: none;
 }
+.r-detail .form-block .box textarea {
+  border: none;
+  overflow: hidden;
+  color: #1E1E1E;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  border: 0;
+  padding: 25px 60px 20px 10px;
+  position: relative;
+}
+.r-detail .form-block .box textarea:focus {
+  box-shadow: none;
+}
 .r-detail .form-block .box span {
   position: absolute;
   top: 0;
@@ -819,4 +834,7 @@ body {
 }
 .r-detail.havc .radio-area label {
   width: auto;
+}
+.r-detail.other .form-block {
+  margin: 0 0 7rem;
 }/*# sourceMappingURL=main.css.map */
