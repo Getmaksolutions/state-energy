@@ -356,15 +356,30 @@
                     opacity: 0.3;
                 }
             }
-            .info {
-                padding: 0 25px;
+        }
+        .info {
+            padding: 0 25px;
+            .btn-group {
+                width: 100%;
                 .seven {
-                    background: url(../images/icon15.png) no-repeat center left;
-                    padding: 25px 10px 20px 50px;
+                    background: url(../images/icon15.png) no-repeat center left 20px;
+                    padding: 25px 10px 20px 65px;
+                    border-radius: 8px !important;
+                    text-align: left;
+                    color: #BBBBBB;
                 }
                 .five {
-                    background: url(../images/icon16.png) no-repeat center left;
-                    padding: 25px 10px 20px 50px;
+                    background: url(../images/icon16.png) no-repeat center left 20px;
+                    padding: 25px 10px 20px 65px;
+                    border-radius: 8px !important;
+                    text-align: left;
+                    color: #BBBBBB;
+                }
+                input {
+                    &:checked+label  {
+                        border: 1px solid #000;
+                        color: #000;
+                    }
                 }
             }
         }

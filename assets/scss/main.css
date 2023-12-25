@@ -710,16 +710,29 @@ body {
   background: #1E1E1E;
   opacity: 0.3;
 }
-.r-detail .form-block .box .info {
+.r-detail .form-block .info {
   padding: 0 25px;
 }
-.r-detail .form-block .box .info .seven {
-  background: url(../images/icon15.png) no-repeat center left;
-  padding: 25px 10px 20px 50px;
+.r-detail .form-block .info .btn-group {
+  width: 100%;
 }
-.r-detail .form-block .box .info .five {
-  background: url(../images/icon16.png) no-repeat center left;
-  padding: 25px 10px 20px 50px;
+.r-detail .form-block .info .btn-group .seven {
+  background: url(../images/icon15.png) no-repeat center left 20px;
+  padding: 25px 10px 20px 65px;
+  border-radius: 8px !important;
+  text-align: left;
+  color: #BBBBBB;
+}
+.r-detail .form-block .info .btn-group .five {
+  background: url(../images/icon16.png) no-repeat center left 20px;
+  padding: 25px 10px 20px 65px;
+  border-radius: 8px !important;
+  text-align: left;
+  color: #BBBBBB;
+}
+.r-detail .form-block .info .btn-group input:checked + label {
+  border: 1px solid #000;
+  color: #000;
 }
 .r-detail .form-block .form-switch {
   margin: 0;
