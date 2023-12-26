@@ -526,4 +526,99 @@
             margin: 0 0 7rem;
         }
     }
-}
+    &.door {
+        .del-btn {
+            float: right;
+        }
+        .mid-area {
+            display: flex;
+            align-content: center;
+            justify-content: space-between;
+            margin: 0 0 50px;
+            h3 {
+                i {
+                    font-style: normal;
+                    margin: 0 0 0 5px;
+                }
+            }
+            .ad-btn {
+                color: #1E1E1E;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 18px;
+                img {
+                    margin: 0 5px 0 0;
+                }
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+        }
+        .form-block {
+            min-height: 420px;
+            max-height: 420px;
+            overflow-y: auto;
+            &::-webkit-scrollbar {
+                width: 5px;
+            }
+            &::-webkit-scrollbar-track {
+                background:  #DEDEDE;
+                border-radius: 10px;
+                margin: 0 0 0 5px;
+            }
+            
+            /* Handle */
+            &::-webkit-scrollbar-thumb {
+                background: #03276B; 
+                border-radius: 10px;
+            }
+            
+            /* Handle on hover */
+            &::-webkit-scrollbar-thumb:hover {
+                background: #b30000; 
+            }
+            .clonedInput {
+                padding: 20px 20px 20px;
+                border-radius: 12px;
+                border: 1px solid #DEDEDE;
+                margin: 0 0 20px;
+            }
+            .qtySelector {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                input {
+                    border: none;
+                    padding: 0;
+                    width: 35px;
+                    color: #1E1E1E;
+                    font-weight: 400;
+                    text-align: left;
+                    font-size: 18px;
+                    line-height: 20px;
+                    padding: 25px 5px 20px 5px;
+                }
+                .fa {
+                    width: 24px;
+                    height: 24px;
+                    float: right;
+                    cursor: pointer;
+                    color: #03276B;
+                    background: #F1F6FF;
+                    font-size: 10px;
+                    border-radius: 5px 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 6px 5px 0 0;
+                    &:first-child {
+                        margin: 6px 0 0;
+                    }
+                }
+            }
+        }
+        .add-area {
+            margin: 0;
+        }
+    }
+} 

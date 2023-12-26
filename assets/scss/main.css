@@ -861,4 +861,93 @@ body {
 }
 .r-detail.other .form-block {
   margin: 0 0 7rem;
+}
+.r-detail.door .del-btn {
+  float: right;
+}
+.r-detail.door .mid-area {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin: 0 0 50px;
+}
+.r-detail.door .mid-area h3 i {
+  font-style: normal;
+  margin: 0 0 0 5px;
+}
+.r-detail.door .mid-area .ad-btn {
+  color: #1E1E1E;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.r-detail.door .mid-area .ad-btn img {
+  margin: 0 5px 0 0;
+}
+.r-detail.door .mid-area .ad-btn:focus {
+  box-shadow: none;
+}
+.r-detail.door .form-block {
+  min-height: 420px;
+  max-height: 420px;
+  overflow-y: auto;
+  /* Handle */
+  /* Handle on hover */
+}
+.r-detail.door .form-block::-webkit-scrollbar {
+  width: 5px;
+}
+.r-detail.door .form-block::-webkit-scrollbar-track {
+  background: #DEDEDE;
+  border-radius: 10px;
+  margin: 0 0 0 5px;
+}
+.r-detail.door .form-block::-webkit-scrollbar-thumb {
+  background: #03276B;
+  border-radius: 10px;
+}
+.r-detail.door .form-block::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+.r-detail.door .form-block .clonedInput {
+  padding: 20px 20px 20px;
+  border-radius: 12px;
+  border: 1px solid #DEDEDE;
+  margin: 0 0 20px;
+}
+.r-detail.door .form-block .qtySelector {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.r-detail.door .form-block .qtySelector input {
+  border: none;
+  padding: 0;
+  width: 35px;
+  color: #1E1E1E;
+  font-weight: 400;
+  text-align: left;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 25px 5px 20px 5px;
+}
+.r-detail.door .form-block .qtySelector .fa {
+  width: 24px;
+  height: 24px;
+  float: right;
+  cursor: pointer;
+  color: #03276B;
+  background: #F1F6FF;
+  font-size: 10px;
+  border-radius: 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px 5px 0 0;
+}
+.r-detail.door .form-block .qtySelector .fa:first-child {
+  margin: 6px 0 0;
+}
+.r-detail.door .add-area {
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */
