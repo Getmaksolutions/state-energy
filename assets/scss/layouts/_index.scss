@@ -529,6 +529,7 @@
     &.door {
         .del-btn {
             float: right;
+            display: none;
         }
         .mid-area {
             display: flex;
@@ -877,7 +878,7 @@
         }
     }
     .side-bar {
-        margin: 42px 0 0 30px;
+        margin: 42px 0 0 0;
         @include max(992px) {
             margin: 0;
         }
@@ -1072,6 +1073,33 @@
         }
         .mid-area {
             margin: 0 0 40px;
+        }
+    }
+    &.inv {
+        .c-info {
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                li {
+                    width: 33.33%;
+                    margin: 0 0 30px;
+                    p {
+                        color: #9A9EAA;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 19px;
+                        margin: 0 0 10px;
+                    }
+                    h3 {
+                        color: #1E1E1E;
+                        font-size: 15px;
+                        font-weight: 500;
+                        line-height: 18px;
+                        letter-spacing: 0.36px;
+                    }
+                }
+            }
         }
     }
 }

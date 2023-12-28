@@ -217,6 +217,30 @@ body {
   border-top: 1px dashed #DEDEDE;
   margin: 15px 0 0;
 }
+#header.c-inv .box ul li:after {
+  display: none;
+}
+#header.c-inv .box ul li:nth-child(3) {
+  border-radius: 5px;
+  background: #EDF9F3;
+  padding: 12px 12px;
+  color: #48C382;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  opacity: 1;
+}
+#header.c-inv .box ul li:last-child {
+  color: #1E1E1E;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  opacity: 1;
+}
+#header.c-inv .box ul li:last-child img {
+  margin: 0 5px 0 0;
+}
 
 .block {
   padding: 3rem 3rem 0;
@@ -866,6 +890,7 @@ body {
 }
 .r-detail.door .del-btn {
   float: right;
+  display: none;
 }
 .r-detail.door .mid-area {
   display: flex;
@@ -1198,7 +1223,7 @@ body {
   width: 20%;
 }
 .c-detail .side-bar {
-  margin: 42px 0 0 30px;
+  margin: 42px 0 0 0;
 }
 @media (max-width: 992px) {
   .c-detail .side-bar {
@@ -1388,4 +1413,27 @@ body {
 }
 .c-detail.detail .mid-area {
   margin: 0 0 40px;
+}
+.c-detail.inv .c-info ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.c-detail.inv .c-info ul li {
+  width: 33.33%;
+  margin: 0 0 30px;
+}
+.c-detail.inv .c-info ul li p {
+  color: #9A9EAA;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  margin: 0 0 10px;
+}
+.c-detail.inv .c-info ul li h3 {
+  color: #1E1E1E;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.36px;
 }/*# sourceMappingURL=main.css.map */
