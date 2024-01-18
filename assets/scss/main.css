@@ -761,7 +761,10 @@ body {
 .r-detail .radio-area {
   margin: 0 0 35px;
 }
-.r-detail .radio-area label {
+.r-detail .radio-area .btn-group {
+  flex-wrap: wrap;
+}
+.r-detail .radio-area .btn-group label {
   margin: 0 10px 0 0;
   border-radius: 100px !important;
   border: 1px solid #DEDEDE;
@@ -773,10 +776,10 @@ body {
   font-weight: 500;
   line-height: 18px;
 }
-.r-detail .radio-area label:focus {
+.r-detail .radio-area .btn-group label:focus {
   box-shadow: none;
 }
-.r-detail .radio-area input:checked + label {
+.r-detail .radio-area .btn-group input:checked + label {
   background: #000;
   border: 1px solid #000;
   color: #fff;
