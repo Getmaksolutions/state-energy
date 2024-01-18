@@ -427,6 +427,7 @@
         margin: 0 0 9rem;
         .btn-group {
             display: flex;
+            flex-wrap: wrap;
             label {
                 margin: 0 10px 10px 0;
                 border-radius: 100px !important;

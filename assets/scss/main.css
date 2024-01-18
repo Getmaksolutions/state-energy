@@ -804,6 +804,7 @@ body {
 }
 .r-detail .check-area .btn-group {
   display: flex;
+  flex-wrap: wrap;
 }
 .r-detail .check-area .btn-group label {
   margin: 0 10px 10px 0;
