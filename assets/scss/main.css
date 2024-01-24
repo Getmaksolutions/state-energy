@@ -784,10 +784,10 @@ body {
   border: 1px solid #000;
   color: #fff;
 }
-.r-detail .bott-area {
+.r-detail .bottom-area {
   margin: 0 0 30px;
 }
-.r-detail .bott-area h3 {
+.r-detail .bottom-area h3 {
   display: flex;
   align-items: center;
   color: #1E1E1E;
@@ -796,7 +796,7 @@ body {
   font-weight: 500;
   line-height: 18px;
 }
-.r-detail .bott-area h3 span {
+.r-detail .bottom-area h3 span {
   margin: 0 0 0 7px;
 }
 .r-detail .check-area {
