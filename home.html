@@ -76,13 +76,13 @@
 							<div class="col-lg-6">
 								<div class="box">
 									<h2><img src="assets/images/icon02.png" alt="">Monthly Utility Bill<span><img src="assets/images/icon03.png" alt=""></span></h2>
-									<div class="rang-bar">
+									<div class="range-bar">
 										<div class="output">
 											<span>$</span> <h3>123.45</h3>
 										</div>
 										<div class="range-container">
 											<form>
-											  <input type="range" min="0" max="10000" step="10" value="1000" id="rang-bar">
+											  <input type="range" min="0" max="10000" step="10" value="1000" id="range-bar">
 											</form>
 											<ul>
 												<li>$0</li>
@@ -105,7 +105,7 @@
 							<div class="col-lg-6">
 								<div class="box">
 									<h2><img src="assets/images/icon05.png" alt="">Monthly Insurance Bill<span><img src="assets/images/icon03.png" alt=""></span></h2>
-									<div class="rang-bar">
+									<div class="range-bar">
 										<div class="output">
 											<span>$</span> <h6>0.00</h6>
 										  </div>
@@ -154,7 +154,7 @@
 	<script src="assets/js/app.js"></script>
 	<script>
 		//Range slider setup
-		$('#rang-bar').rangeslider({
+		$('#range-bar').rangeslider({
 		polyfill: false,
 		rangeClass: 'rangeslider',
 		disabledClass: 'rangeslider--disabled',
@@ -167,7 +167,7 @@
 		//Functionality for a value feedback
 		var output = $('h3')[0];
 
-		$(document).on('input', '#rang-bar', function(e) {
+		$(document).on('input', '#range-bar', function(e) {
 		output.innerHTML = e.currentTarget.value;
 		});
 	</script>

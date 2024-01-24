@@ -433,7 +433,7 @@ body {
 .two-block .box h2 span img {
   margin: 0;
 }
-.two-block .box .rang-bar .output {
+.two-block .box .range-bar .output {
   border: 1px solid #DEDEDE;
   border-radius: 15px 15px;
   padding: 20px 20px;
@@ -441,14 +441,14 @@ body {
   align-items: center;
   margin: 0 0 45px;
 }
-.two-block .box .rang-bar .output h3 {
+.two-block .box .range-bar .output h3 {
   color: #03276B;
   font-size: 40px;
   font-weight: 500;
   line-height: 42px;
   padding: 0 0 0 20px;
 }
-.two-block .box .rang-bar .output h6 {
+.two-block .box .range-bar .output h6 {
   color: #03276B;
   font-size: 40px;
   font-weight: 500;
@@ -456,7 +456,7 @@ body {
   padding: 0 0 0 20px;
   opacity: 0.2;
 }
-.two-block .box .rang-bar .output span {
+.two-block .box .range-bar .output span {
   color: #03276B;
   font-size: 40px;
   font-style: normal;
@@ -466,22 +466,22 @@ body {
   padding: 0 20px 0 0;
   border-right: 1px solid #DEDEDE;
 }
-.two-block .box .rang-bar .range-container .rangeslider--horizontal {
+.two-block .box .range-bar .range-container .rangeslider--horizontal {
   height: 8px;
   background: #DFDFDF;
 }
-.two-block .box .rang-bar .range-container .rangeslider--horizontal .rangeslider__fill {
+.two-block .box .range-bar .range-container .rangeslider--horizontal .rangeslider__fill {
   background: #C52F31;
   opacity: 1;
 }
-.two-block .box .rang-bar .range-container .rangeslider--horizontal .rangeslider__handle {
+.two-block .box .range-bar .range-container .rangeslider--horizontal .rangeslider__handle {
   background: #C52F31;
   top: -12px;
   width: 48px;
   height: 32px;
   border-radius: 25px;
 }
-.two-block .box .rang-bar .range-container .rangeslider--horizontal .rangeslider__handle:after {
+.two-block .box .range-bar .range-container .rangeslider--horizontal .rangeslider__handle:after {
   background: url(../images/icon04.png) no-repeat;
   background-size: 100%;
   width: 8px;
@@ -489,27 +489,27 @@ body {
   padding: 0;
   border-radius: 0;
 }
-.two-block .box .rang-bar .range-container ul {
+.two-block .box .range-bar .range-container ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 20px 0 0;
 }
-.two-block .box .rang-bar .range-container ul li:first-child {
+.two-block .box .range-bar .range-container ul li:first-child {
   color: #1E1E1E;
   font-size: 14px;
   font-style: normal;
   font-weight: 800;
   line-height: 16px;
 }
-.two-block .box .rang-bar .range-container ul li:last-child {
+.two-block .box .range-bar .range-container ul li:last-child {
   color: #1E1E1E;
   font-size: 14px;
   font-style: normal;
   font-weight: 800;
   line-height: 16px;
 }
-.two-block .box .rang-bar .range-container ul li span {
+.two-block .box .range-bar .range-container ul li span {
   width: 1px;
   height: 8px;
   background: #E1E1E1;
