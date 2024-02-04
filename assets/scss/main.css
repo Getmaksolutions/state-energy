@@ -482,7 +482,7 @@ body {
   border-radius: 25px;
 }
 .two-block .box .range-bar .range-container .rangeslider--horizontal .rangeslider__handle:after {
-  background: url(../images/icon04.png) no-repeat;
+  background: url(../images/shopping_cart/icon04.png) no-repeat;
   background-size: 100%;
   width: 8px;
   height: 10px;
@@ -701,14 +701,14 @@ body {
   width: 100%;
 }
 .form-block .info .btn-group .seven {
-  background: url(../images/icon15.png) no-repeat center left 20px;
+  background: url(../images/shopping_cart/icon15.png) no-repeat center left 20px;
   padding: 25px 10px 20px 65px;
   border-radius: 8px !important;
   text-align: left;
   color: #BBBBBB;
 }
 .form-block .info .btn-group .five {
-  background: url(../images/icon16.png) no-repeat center left 20px;
+  background: url(../images/shopping_cart/icon16.png) no-repeat center left 20px;
   padding: 25px 10px 20px 65px;
   border-radius: 8px !important;
   text-align: left;
@@ -810,7 +810,7 @@ body {
   margin: 0 10px 10px 0;
   border-radius: 100px !important;
   border: 1px solid #DEDEDE;
-  background: #FFF url(../images/icon12.png) no-repeat center left 10px;
+  background: #FFF url(../images/shopping_cart/icon12.png) no-repeat center left 10px;
   padding: 15px 15px 15px 50px;
   color: #1E1E1E;
   font-size: 16px;
@@ -821,7 +821,7 @@ body {
   box-shadow: none;
 }
 .r-detail .check-area .btn-group input:checked + label {
-  background: #03276B url(../images/icon11.png) no-repeat center left 10px;
+  background: #03276B url(../images/shopping_cart/icon11.png) no-repeat center left 10px;
   border: 1px solid #03276B;
   color: #fff;
 }
@@ -1444,3 +1444,10 @@ body {
   line-height: 18px;
   letter-spacing: 0.36px;
 }/*# sourceMappingURL=main.css.map */
+
+
+
+
+a.bin {
+   color: #b30000;
+}
