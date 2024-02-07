@@ -25,7 +25,7 @@
 							<div class="box">
 								<ul>
 									<li><a href="#"><img src="assets/images/logo.png" alt=""></a></li>
-									<li>Welcome <span>Ben!</span></li>
+									<li>Welcome <span>Benas!</span></li>
 								</ul>
 							</div>
 						</div>
@@ -152,7 +152,28 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 	<script src="http://seodesigns.com/projects/codepen/071016/rangeslider.min.js"></script>
 	<script src="assets/js/app.js"></script>
-	<script>
+	<script type="text/javascript">
+
+		var diagramSlider = document.querySelector("#rang-bar");
+		function iosPolyfill(e) {
+		  var val = (e.pageX - diagramSlider.getBoundingClientRect().left) /
+		   (diagramSlider.getBoundingClientRect().right - diagramSlider.getBoundingClientRect().left),
+		  max = diagramSlider.getAttribute("max"),
+		  segment = 1 / (max - 1),
+		  segmentArr = [];
+		  max++;
+		  for (var i = 0; i < max; i++) {
+		    segmentArr.push(segment * i);
+		  }
+		  var segCopy = segmentArr.slice(),
+		  ind = segmentArr.sort((a, b) => Math.abs(val - a) - Math.abs(val - b))[0];
+		  diagramSlider.value = segCopy.indexOf(ind) + 1;
+		}
+		if (!!navigator.platform.match(/iPhone|iPod|iPad/)) {
+		  diagramSlider.addEventListener("touchend", iosPolyfill, {passive: true});
+		}
+
+		
 		//Range slider setup
 		$('#rang-bar').rangeslider({
 		polyfill: false,
@@ -171,7 +192,7 @@
 		output.innerHTML = e.currentTarget.value;
 		});
 	</script>
-	<script>
+	<script type="text/javascript">
 		//Range slider setup
 		$('#rang').rangeslider({
 		polyfill: false,
