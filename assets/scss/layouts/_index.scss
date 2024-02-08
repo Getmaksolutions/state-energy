@@ -46,7 +46,7 @@
             display: flex;
             align-items: center;
         }
-        .range-bar {
+        .rang-bar {
             .output {
                 border: 1px solid #DEDEDE;
                 border-radius: 15px 15px;
@@ -95,7 +95,7 @@
                         height: 32px;
                         border-radius: 25px;
                         &:after {
-                            background: url(../images/shopping_cart/icon04.png) no-repeat;
+                            background: url(../images/icon04.png) no-repeat;
                             background-size: 100%;
                             width: 8px;
                             height: 10px;
@@ -318,14 +318,14 @@
         .btn-group {
             width: 100%;
             .seven {
-                background: url(../images/shopping_cart/icon15.png) no-repeat center left 20px;
+                background: url(../images/icon15.png) no-repeat center left 20px;
                 padding: 25px 10px 20px 65px;
                 border-radius: 8px !important;
                 text-align: left;
                 color: #BBBBBB;
             }
             .five {
-                background: url(../images/shopping_cart/icon16.png) no-repeat center left 20px;
+                background: url(../images/icon16.png) no-repeat center left 20px;
                 padding: 25px 10px 20px 65px;
                 border-radius: 8px !important;
                 text-align: left;
@@ -408,7 +408,7 @@
             }
         }
     }
-    .bottom-area {
+    .bott-area {
         margin: 0 0 30px;
         h3 {
             display: flex;
@@ -432,7 +432,7 @@
                 margin: 0 10px 10px 0;
                 border-radius: 100px !important;
                 border: 1px solid #DEDEDE;
-                background: #FFF url(../images/shopping_cart/icon12.png) no-repeat center left 10px;
+                background: #FFF url(../images/icon12.png) no-repeat center left 10px;
                 padding: 15px 15px 15px 50px;
                 color: #1E1E1E;
                 font-size: 16px;
@@ -444,7 +444,7 @@
             }
             input {
                 &:checked+label  {
-                    background: #03276B url(../images/shopping_cart/icon11.png) no-repeat center left 10px;
+                    background: #03276B url(../images/icon11.png) no-repeat center left 10px;
                     border: 1px solid #03276B;
                     color: #fff;
                 }
