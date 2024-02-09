@@ -26,7 +26,7 @@
         border: 1px solid #DEDEDE;
         border-radius: 15px 15px;
         margin: 0 0 50px;
-        min-height: 290px;
+        min-height: 300px;
         h2 {
             img {
                 margin: 0 10px 0 0;
@@ -47,63 +47,32 @@
             align-items: center;
         }
         .rang-bar {
-            .output {
+            .range__value {
                 border: 1px solid #DEDEDE;
                 border-radius: 15px 15px;
                 padding: 20px 20px;
                 display: flex;
                 align-items: center;
                 margin: 0 0 45px;
-                h3 {
-                    color: #03276B;
-                    font-size: 40px;
-                    font-weight: 500;
-                    line-height: 42px;
-                    padding: 0 0 0 20px;
-                }
-                h6 {
-                    color: #03276B;
-                    font-size: 40px;
-                    font-weight: 500;
-                    line-height: 42px;
-                    padding: 0 0 0 20px;
-                    opacity: 0.2;
-                }
                 span {
+                    color: #03276B;
+                    font-size: 40px;
+                    font-weight: 500;
+                    line-height: 42px;
+                    padding: 0 0 0 15px;
+                }
+                label {
                     color: #03276B;
                     font-size: 40px;
                     font-style: normal;
                     font-weight: 500;
                     line-height: 44px;
                     opacity: 0.2;
-                    padding: 0 20px 0 0;
+                    padding: 0 15px 0 0;
                     border-right: 1px solid #DEDEDE;
                 }
             }
             .range-container {
-                .rangeslider--horizontal {
-                    height: 8px;
-                    background: #DFDFDF;
-                    .rangeslider__fill {
-                        background: #C52F31;
-                        opacity: 1;
-                    }
-                    .rangeslider__handle {
-                        background: #C52F31;
-                        top: -12px;
-                        width: 48px;
-                        height: 32px;
-                        border-radius: 25px;
-                        &:after {
-                            background: url(../images/icon04.png) no-repeat;
-                            background-size: 100%;
-                            width: 8px;
-                            height: 10px;
-                            padding: 0;
-                            border-radius: 0;
-                        }
-                    }
-                }
                 ul {
                     display: flex;
                     align-items: center;
@@ -133,6 +102,39 @@
                         }
                     }
                 }
+            }
+            .range__slider [type="range"] {
+                width: 100%;
+                -webkit-appearance: none;
+                appearance: none;
+                height: 8px;
+                border-radius: 6px;
+                background: #DFDFDF;
+                outline: none;
+                padding: 0;
+                margin: 0;
+            }
+            .range__slider [type="range"]::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+                width: 48px;
+                height: 32px;
+                background: #C52F31 url(../images/icon04.png) no-repeat center center;
+                border-radius: 25px;
+                cursor: pointer;
+                position: relative;
+            }
+            .range__slider [type="range"]::-moz-range-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+                width: 48px;
+                height: 32px;
+                background: #C52F31;
+                border-radius: 25px;
+                cursor: pointer;
+            }
+            input::-moz-focus-inner, input::-moz-focus-outer {
+                border: 0;
             }
         }
         

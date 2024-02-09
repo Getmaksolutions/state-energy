@@ -412,7 +412,7 @@ body {
   border: 1px solid #DEDEDE;
   border-radius: 15px 15px;
   margin: 0 0 50px;
-  min-height: 290px;
+  min-height: 300px;
 }
 .two-block .box h2 {
   color: #1E1E1E;
@@ -433,7 +433,7 @@ body {
 .two-block .box h2 span img {
   margin: 0;
 }
-.two-block .box .rang-bar .output {
+.two-block .box .rang-bar .range__value {
   border: 1px solid #DEDEDE;
   border-radius: 15px 15px;
   padding: 20px 20px;
@@ -441,53 +441,22 @@ body {
   align-items: center;
   margin: 0 0 45px;
 }
-.two-block .box .rang-bar .output h3 {
+.two-block .box .rang-bar .range__value span {
   color: #03276B;
   font-size: 40px;
   font-weight: 500;
   line-height: 42px;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 15px;
 }
-.two-block .box .rang-bar .output h6 {
-  color: #03276B;
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 42px;
-  padding: 0 0 0 20px;
-  opacity: 0.2;
-}
-.two-block .box .rang-bar .output span {
+.two-block .box .rang-bar .range__value label {
   color: #03276B;
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
   line-height: 44px;
   opacity: 0.2;
-  padding: 0 20px 0 0;
+  padding: 0 15px 0 0;
   border-right: 1px solid #DEDEDE;
-}
-.two-block .box .rang-bar .range-container .rangeslider--horizontal {
-  height: 8px;
-  background: #DFDFDF;
-}
-.two-block .box .rang-bar .range-container .rangeslider--horizontal .rangeslider__fill {
-  background: #C52F31;
-  opacity: 1;
-}
-.two-block .box .rang-bar .range-container .rangeslider--horizontal .rangeslider__handle {
-  background: #C52F31;
-  top: -12px;
-  width: 48px;
-  height: 32px;
-  border-radius: 25px;
-}
-.two-block .box .rang-bar .range-container .rangeslider--horizontal .rangeslider__handle:after {
-  background: url(../images/icon04.png) no-repeat;
-  background-size: 100%;
-  width: 8px;
-  height: 10px;
-  padding: 0;
-  border-radius: 0;
 }
 .two-block .box .rang-bar .range-container ul {
   display: flex;
@@ -514,6 +483,41 @@ body {
   height: 8px;
   background: #E1E1E1;
   display: block;
+}
+.two-block .box .rang-bar .range__slider [type=range] {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  height: 8px;
+  border-radius: 6px;
+  background: #DFDFDF;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+.two-block .box .rang-bar .range__slider [type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 48px;
+  height: 32px;
+  background: #C52F31 url(../images/icon04.png) no-repeat center center;
+  border-radius: 25px;
+  cursor: pointer;
+  position: relative;
+}
+.two-block .box .rang-bar .range__slider [type=range]::-moz-range-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  width: 48px;
+  height: 32px;
+  background: #C52F31;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.two-block .box .rang-bar input::-moz-focus-inner, .two-block .box .rang-bar input::-moz-focus-outer {
+  border: 0;
 }
 
 .btn-area {
